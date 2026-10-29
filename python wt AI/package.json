@@ -1,0 +1,20 @@
+{
+  "name": "python-code-reviewer",
+  "version": "1.0.0",
+  "description": "Automated Code Reviewer & Security Linter (MVP)",
+  "scripts": {
+    "start": "node run.js main.py example_test.py",
+    "review": "node run.js main.py",
+    "scan": "node run.js main.py .",
+    "test": "node run.js -m unittest test_reviewer.py"
+  },
+  "keywords": [
+    "python",
+    "code-review",
+    "linter",
+    "ast",
+    "openai"
+  ],
+  "author": "",
+  "license": "ISC"
+}
